@@ -6,7 +6,40 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<meta name="keywords" content="關鍵字" />
 		<meta name="description" content="網站敘述" />
-		<title>Document</title>
+		<title>KitchenRWD</title>
+		<link rel="stylesheet" href="./style/reset.css" />
+		<link rel="stylesheet" href="./style/cssGrid.css" />
+		<link rel="stylesheet" href="assets/owl.carousel.min.css" />
+		<link rel="stylesheet" href="assets/owl.theme.default.min.css" />
+		<link rel="stylesheet" href="./style/main.css" />
 	</head>
-	<body></body>
+	<body>
+		<div class="wrap">
+			<div class="top-navbar"></div>
+		</div>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+		<script src="owl.carousel.min.js"></script>
+		<script>
+			$(document).ready(function () {
+				$(".owl-carousel").owlCarousel({
+					loop: true,
+					margin: 0,
+					nav: true,
+					center: true,
+					responsive: {
+						0: {
+							items: 3,
+							nav: false,
+						},
+						768: {
+							items: 4,
+						},
+						1200: {
+							items: 6,
+						},
+					},
+				});
+			});
+		</script>
+	</body>
 </html>
