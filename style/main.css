@@ -92,19 +92,23 @@
 .owl-carousel {
 	width: 70%;
 	margin: auto;
-	outline: 2px solid red;
 	text-align: center;
+	margin-top: -1.315789vw;
 }
 .item {
 	background-color: #26313c;
-
-	outline: 2px solid red;
+	color: #fff;
+	padding: 6vw 3vw;
+}
+.item i {
+	font-size: 36px;
+	margin-bottom: 2.631578vw;
 }
 .item p {
-	font-size: 36px;
-	color: black;
+	font-size: 24px;
+	margin-bottom: 1.052631vw;
 }
 .item span {
 	display: block;
-	font-size: 24px;
+	font-size: 12px;
 }
