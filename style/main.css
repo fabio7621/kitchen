@@ -34,8 +34,8 @@
 }
 
 .top-logo {
+	min-width: 60px;
 	margin-right: auto;
-	transform: scale(0.9);
 }
 .top-logo img {
 	width: 100%;
