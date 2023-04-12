@@ -165,6 +165,41 @@
 	font-weight: 400;
 	color: #36a837;
 }
+.bulid-kitchen {
+	width: 100%;
+	padding-top: 100px;
+}
+.bulid-tille {
+	display: block;
+	margin: auto;
+	text-align: center;
+}
+.bulid-tille h3 {
+	font-size: 36px;
+	margin-bottom: 20px;
+}
+.bulid-tille span {
+	font-size: 16px;
+	color: gray;
+	order: 1;
+	display: block;
+	margin-bottom: 20px;
+}
+.bulid-tille button {
+	font-size: 16px;
+	font-weight: 400px;
+	color: #fff;
+	padding: 15px 40px;
+	border-radius: 50px;
+	border: none;
+	background-color: #36a837;
+	margin-bottom: 80px;
+	cursor: pointer;
+}
+.bulid-tille button:hover {
+	background-color: #26313c;
+}
+
 @media screen and (max-width: 768px) {
 	.navbar-center-list {
 		display: none;
