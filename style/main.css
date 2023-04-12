@@ -1,0 +1,52 @@
+.warp {
+	width: 100%;
+}
+
+.menu {
+	display: none;
+}
+.top-navbar {
+	width: 100%;
+	background-color: #26313c;
+	display: flex;
+	align-items: center;
+	position: relative;
+}
+.navbar-center {
+	margin: auto;
+	display: flex;
+	align-items: center;
+}
+.navbar-center-list {
+	display: flex;
+	justify-content: space-between;
+}
+.navbar-center-list li {
+	padding: 2vw;
+}
+.navbar-center-list li a {
+	text-decoration: none;
+	color: aliceblue;
+}
+
+.top-logo {
+	margin-right: auto;
+}
+
+.hb {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+	position: absolute;
+	top: 2.083333vw;
+	right: 2.083333vw;
+}
+
+.section-banner {
+	width: 100%;
+	padding-bottom: 40%;
+	background-image: url(../image/slider-img-1.jpg);
+	background-repeat: no-repeat;
+}
+@media screen and (min-width: 768px) {
+}
