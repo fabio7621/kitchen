@@ -254,7 +254,7 @@
 .kitchen-design-menu {
 	display: flex;
 	justify-content: center;
-	margin-bottom: 50px;
+	margin-bottom: 100px;
 }
 .kitchen-design-menu a {
 	font-size: 20px;
@@ -267,6 +267,48 @@
 	font-size: 20px;
 	color: gray;
 	margin-left: 5px;
+}
+.kitchen-design-picbox {
+	margin: auto;
+	display: flex;
+	flex-wrap: wrap;
+	margin-bottom: 100px;
+}
+.design-picture {
+	width: 50%;
+	overflow: hidden;
+}
+.design-picture img {
+	width: 100%;
+}
+
+.green-butten {
+	width: 100%;
+	background-color: #36a837;
+	color: #fff;
+	text-align: center;
+	padding-top: 4.210526%;
+	padding-bottom: 2%;
+}
+.green-butten h4 {
+	font-size: 30px;
+	margin-bottom: 50px;
+}
+.green-butten button {
+	font-size: 16px;
+	font-weight: 400px;
+	color: black;
+	padding: 15px 40px;
+	border-radius: 50px;
+	border: none;
+	background-color: #fff;
+	margin-bottom: 80px;
+	cursor: pointer;
+	transition: color 0.8s;
+}
+.green-butten button:hover {
+	background-color: #26313c;
+	color: #fff;
 }
 
 @media screen and (max-width: 768px) {
@@ -299,5 +341,8 @@
 	}
 	.num h4 {
 		text-indent: -0.3em;
+	}
+	.kitchen-design-menu a {
+		display: none;
 	}
 }
