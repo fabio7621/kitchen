@@ -230,6 +230,44 @@
 	font-size: 24px;
 	margin-bottom: 30px;
 }
+.kitchen-design {
+	width: 100%;
+	background-color: #fff;
+}
+.kitchen-design-title {
+	margin: auto;
+	text-align: center;
+	padding-top: 50px;
+}
+.kitchen-design-title h3 {
+	font-size: 36px;
+	margin-bottom: 30px;
+}
+.kitchen-design-title p {
+	font-size: 16px;
+	margin-bottom: 30px;
+}
+.kitchen-design-title span {
+	color: #36a837;
+	font-weight: 600;
+}
+.kitchen-design-menu {
+	display: flex;
+	justify-content: center;
+	margin-bottom: 50px;
+}
+.kitchen-design-menu a {
+	font-size: 20px;
+	margin-right: 5px;
+	color: black;
+	text-decoration: none;
+}
+.kitchen-design-menu a::after {
+	content: "/";
+	font-size: 20px;
+	color: gray;
+	margin-left: 5px;
+}
 
 @media screen and (max-width: 768px) {
 	.navbar-center-list {
