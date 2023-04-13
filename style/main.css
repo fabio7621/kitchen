@@ -91,7 +91,13 @@
 	display: flex;
 }
 /* 輪播相關 */
-.owl-carousel {
+.owl-bot {
+	width: 70%;
+	margin: auto;
+	text-align: center;
+	position: relative;
+}
+.owl-top {
 	width: 70%;
 	margin: auto;
 	text-align: center;
@@ -113,6 +119,21 @@
 .item span {
 	display: block;
 	font-size: 12px;
+}
+
+.dottbox {
+	width: 30px;
+	height: 30px;
+	padding: 15px;
+	border-radius: 50%;
+	background-color: #36a837;
+	position: absolute;
+	top: 0;
+	right: 50%;
+	transform: translate(50%, -50%);
+}
+.item .dottbox i {
+	text-align: center;
 }
 /* 輪播相關 */
 .kitpic {
@@ -320,7 +341,7 @@
 	margin: auto;
 	text-align: center;
 	padding-top: 4.73684%;
-	padding-bottom: 15%;
+	padding-bottom: 3%;
 }
 .section-clientRevews-title h3 {
 	font-size: 36px;
