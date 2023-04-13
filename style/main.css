@@ -310,6 +310,24 @@
 	background-color: #26313c;
 	color: #fff;
 }
+.section-clientRevews {
+	width: 100%;
+	background-color: #fff;
+}
+.section-clientRevews-title {
+	margin: auto;
+	text-align: center;
+	padding-top: 4.73684%;
+	padding-bottom: 4.73684%;
+}
+.section-clientRevews-title h3 {
+	font-size: 36px;
+}
+.section-clientRevews-title span {
+	font-size: 16px;
+	display: block;
+	margin-bottom: 30px;
+}
 
 @media screen and (max-width: 768px) {
 	.navbar-center-list {
