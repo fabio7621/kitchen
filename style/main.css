@@ -90,6 +90,7 @@
 	width: 100%;
 	display: flex;
 }
+/* 輪播相關 */
 .owl-carousel {
 	width: 70%;
 	margin: auto;
@@ -99,7 +100,7 @@
 .item {
 	background-color: #26313c;
 	color: #fff;
-	padding: 60px 3vw;
+	padding: 60px 3%;
 }
 .item i {
 	font-size: 36px;
@@ -113,6 +114,7 @@
 	display: block;
 	font-size: 12px;
 }
+/* 輪播相關 */
 .kitpic {
 	width: 100%;
 }
@@ -318,7 +320,7 @@
 	margin: auto;
 	text-align: center;
 	padding-top: 4.73684%;
-	padding-bottom: 4.73684%;
+	padding-bottom: 15%;
 }
 .section-clientRevews-title h3 {
 	font-size: 36px;
