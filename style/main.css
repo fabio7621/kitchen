@@ -49,8 +49,8 @@
 	justify-content: space-evenly;
 	align-items: end;
 	position: absolute;
-	top: 1.9555vw;
-	right: 2.083333vw;
+	top: 40px;
+	right: 60px;
 }
 .hb span {
 	width: 80%;
@@ -122,6 +122,14 @@
 	position: relative;
 	overflow: none;
 }
+.owl-bot .item {
+	padding: 50px;
+	box-sizing: border-box;
+}
+.owl-bot .item p {
+	padding-top: 25%;
+	font-size: 16px;
+}
 .dottbox {
 	width: 30px;
 	height: 30px;
@@ -135,6 +143,21 @@
 }
 .item .dottbox i {
 	text-align: center;
+}
+.item .dottbox {
+	z-index: 999;
+}
+.clinet-hand-pic {
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	overflow: hidden;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: auto;
+}
+.clinet-hand-pic img {
+	width: 100%;
 }
 /* 輪播相關 */
 .kitpic {
@@ -386,5 +409,8 @@
 	}
 	.kitchen-design-menu a {
 		display: none;
+	}
+	.hb {
+		right: 20px;
 	}
 }
