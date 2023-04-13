@@ -115,50 +115,7 @@
 	display: block;
 	font-size: 12px;
 }
-.owl-bot {
-	width: 70%;
-	margin: auto;
-	text-align: center;
-	position: relative;
-	overflow: none;
-}
-.owl-bot .item {
-	padding: 50px;
-	box-sizing: border-box;
-}
-.owl-bot .item p {
-	padding-top: 25%;
-	font-size: 16px;
-}
-.dottbox {
-	width: 30px;
-	height: 30px;
-	padding: 15px;
-	border-radius: 50%;
-	background-color: #36a837;
-	position: absolute;
-	top: 0;
-	right: 50%;
-	transform: translate(50%);
-}
-.item .dottbox i {
-	text-align: center;
-}
-.item .dottbox {
-	z-index: 999;
-}
-.clinet-hand-pic {
-	width: 100px;
-	height: 100px;
-	border-radius: 50%;
-	overflow: hidden;
-	margin-left: auto;
-	margin-right: auto;
-	margin-top: auto;
-}
-.clinet-hand-pic img {
-	width: 100%;
-}
+
 /* 輪播相關 */
 .kitpic {
 	width: 100%;
@@ -375,7 +332,50 @@
 	display: block;
 	margin-bottom: 30px;
 }
-
+.owl-bot {
+	width: 70%;
+	margin: auto;
+	text-align: center;
+	position: relative;
+	overflow: none;
+}
+.owl-bot .item {
+	padding: 50px;
+	box-sizing: border-box;
+}
+.owl-bot .item p {
+	padding-top: 25%;
+	font-size: 16px;
+}
+.dottbox {
+	width: 30px;
+	height: 30px;
+	padding: 15px;
+	border-radius: 50%;
+	background-color: #36a837;
+	position: absolute;
+	top: 0;
+	right: 50%;
+	transform: translate(50%);
+}
+.item .dottbox i {
+	text-align: center;
+}
+.item .dottbox {
+	z-index: 999;
+}
+.clinet-hand-pic {
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	overflow: hidden;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: auto;
+}
+.clinet-hand-pic img {
+	width: 100%;
+}
 @media screen and (max-width: 768px) {
 	.navbar-center-list {
 		display: none;
@@ -409,6 +409,20 @@
 	}
 	.kitchen-design-menu a {
 		display: none;
+	}
+	.section-bulid-number article {
+		text-align: start;
+		margin-left: 50px;
+	}
+	.section-clientRevews-title span {
+		font-size: 12px;
+		margin-bottom: 20px;
+	}
+	.section-clientRevews-title h3 {
+		font-size: 20px;
+	}
+	.design-picture {
+		width: 100%;
 	}
 	.hb {
 		right: 20px;
