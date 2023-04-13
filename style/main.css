@@ -91,12 +91,7 @@
 	display: flex;
 }
 /* 輪播相關 */
-.owl-bot {
-	width: 70%;
-	margin: auto;
-	text-align: center;
-	position: relative;
-}
+
 .owl-top {
 	width: 70%;
 	margin: auto;
@@ -120,7 +115,13 @@
 	display: block;
 	font-size: 12px;
 }
-
+.owl-bot {
+	width: 70%;
+	margin: auto;
+	text-align: center;
+	position: relative;
+	overflow: none;
+}
 .dottbox {
 	width: 30px;
 	height: 30px;
@@ -130,7 +131,7 @@
 	position: absolute;
 	top: 0;
 	right: 50%;
-	transform: translate(50%, -50%);
+	transform: translate(50%);
 }
 .item .dottbox i {
 	text-align: center;
