@@ -208,12 +208,14 @@
 	background-color: #26313c;
 }
 .section-bulid-number {
-	margin: auto;
+	width: 90%;
 	display: flex;
+	flex-wrap: wrap;
 	justify-content: space-between;
 	align-items: center;
 }
 .section-bulid-number article {
+	width: 30%;
 	font-size: 16px;
 	text-align: center;
 	color: #fff;
@@ -395,24 +397,16 @@
 	.section-aboutUs-txtcard h3 {
 		text-indent: 0;
 	}
-	.section-bulid-number {
-		flex-wrap: wrap;
-		align-items: center;
-	}
+
 	.num {
-		transform: translate(23vw);
-		display: flex;
-		flex-wrap: wrap;
+		width: 100%;
 	}
-	.num h4 {
-		text-indent: -0.3em;
-	}
+
 	.kitchen-design-menu a {
 		display: none;
 	}
 	.section-bulid-number article {
-		text-align: start;
-		margin-left: 50px;
+		width: 100%;
 	}
 	.section-clientRevews-title span {
 		font-size: 12px;
