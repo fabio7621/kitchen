@@ -250,4 +250,16 @@
 	.section-aboutUs-txtcard h3 {
 		text-indent: 0;
 	}
+	.section-bulid-number {
+		flex-wrap: wrap;
+		align-items: center;
+	}
+	.num {
+		transform: translate(23vw);
+		display: flex;
+		flex-wrap: wrap;
+	}
+	.num h4 {
+		text-indent: -0.3em;
+	}
 }
