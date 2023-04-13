@@ -199,6 +199,37 @@
 .bulid-tille button:hover {
 	background-color: #26313c;
 }
+.section-numRun {
+	width: 100%;
+	background-color: #26313c;
+}
+.section-bulid-number {
+	margin: auto;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.section-bulid-number article {
+	font-size: 16px;
+	text-align: center;
+	color: #fff;
+	padding: 20px;
+}
+.num {
+	padding: 20px;
+	width: 30%;
+	text-align: center;
+	color: #fff;
+}
+.num h4 {
+	font-size: 100px;
+	margin-bottom: 30px;
+	color: #36a837;
+}
+.num p {
+	font-size: 24px;
+	margin-bottom: 30px;
+}
 
 @media screen and (max-width: 768px) {
 	.navbar-center-list {
