@@ -1,3 +1,6 @@
+body {
+	font-family: "Merriweather Sans", sans-serif;
+}
 .warp {
 	width: 100%;
 	position: relative;
@@ -101,7 +104,7 @@
 .item {
 	background-color: #26313c;
 	color: #fff;
-	padding: 60px 3%;
+	padding: 60px;
 }
 .item i {
 	font-size: 36px;
@@ -342,11 +345,12 @@
 	overflow: none;
 }
 .owl-bot .item {
-	padding: 50px;
+	padding: 40px;
 	box-sizing: border-box;
+	padding-top: 100px;
 }
 .owl-bot .item p {
-	padding-top: 25%;
+	padding-top: 10px;
 	font-size: 16px;
 }
 .dottbox {
@@ -356,7 +360,7 @@
 	border-radius: 50%;
 	background-color: #36a837;
 	position: absolute;
-	top: 0;
+	top: 5%;
 	right: 50%;
 	transform: translate(50%);
 }
@@ -375,9 +379,44 @@
 	margin-right: auto;
 	margin-top: auto;
 }
-.clinet-hand-pic img {
+.item .clinet-hand-pic img {
 	width: 100%;
 }
+.clinet-name-job {
+	margin-top: auto;
+	padding-top: 20px;
+}
+.item .clinet-name-job h4 {
+	font-size: 20px;
+}
+.owl-bot.item .clinet-name-job p {
+	font-size: 12px;
+	margin-top: 10px;
+}
+.section-logo-running-map {
+	width: 100%;
+	background-color: #26313c;
+	padding-top: 5%;
+}
+.section-logo-movingbox {
+	margin: auto;
+	overflow: hidden;
+}
+.section-logo-running-bar {
+	display: flex;
+	gap: 50px;
+
+	animation: mv 7s linear infinite;
+}
+@keyframes mv {
+	0% {
+		transform: translateX(0%);
+	}
+	100% {
+		transform: translateX(-100%);
+	}
+}
+
 @media screen and (max-width: 768px) {
 	.navbar-center-list {
 		display: none;
