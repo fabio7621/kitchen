@@ -401,11 +401,11 @@ body {
 .section-logo-movingbox {
 	margin: auto;
 	overflow: hidden;
+	margin-bottom: 50px;
 }
 .section-logo-running-bar {
 	display: flex;
 	gap: 50px;
-
 	animation: mv 7s linear infinite;
 }
 @keyframes mv {
@@ -415,6 +415,11 @@ body {
 	100% {
 		transform: translateX(-100%);
 	}
+}
+.section-logo-map-box {
+	margin: auto;
+	padding-bottom: 70%;
+	position: relative;
 }
 
 @media screen and (max-width: 768px) {
@@ -459,5 +464,8 @@ body {
 	}
 	.hb {
 		right: 20px;
+	}
+	.section-logo-map-box {
+		padding-bottom: 30%;
 	}
 }
