@@ -7,7 +7,7 @@ body {
 	overflow: hidden;
 }
 .menu {
-	display: block;
+	display: none;
 	width: 50vw;
 	height: 100vh;
 	padding: 40px 40px;
