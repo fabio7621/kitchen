@@ -505,6 +505,33 @@ body {
 .comehere-right-item i {
 	margin-right: 30px;
 }
+footer {
+	padding-top: 100px;
+	width: 100%;
+	background-color: #f8f9fa;
+	padding-bottom: 100px;
+}
+.footer-box {
+	margin: auto;
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+}
+.footer-socialMedia {
+	width: 50%;
+	display: flex;
+	justify-content: center;
+}
+.footer-socialMedia i {
+	margin-right: 30px;
+}
+.footer-co {
+	width: 50%;
+	text-align: center;
+}
+.footer-co p {
+	font-size: 16px;
+}
 
 @media screen and (max-width: 768px) {
 	.hb {
@@ -571,5 +598,13 @@ body {
 	}
 	.comehere-input-right textarea {
 		width: 100%;
+	}
+	.footer-socialMedia {
+		width: 100%;
+		margin-bottom: 60px;
+	}
+	.footer-co {
+		width: 100%;
+		text-indent: -2em;
 	}
 }
