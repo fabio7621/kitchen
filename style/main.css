@@ -4,10 +4,75 @@ body {
 .warp {
 	width: 100%;
 	position: relative;
+	overflow: hidden;
 }
-
 .menu {
-	display: none;
+	display: block;
+	width: 50vw;
+	height: 100vh;
+	padding: 40px 40px;
+	box-sizing: border-box;
+	background-color: #26313c;
+	position: absolute;
+	right: 0;
+	top: 0;
+	z-index: 999999;
+}
+.menu-nav {
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 7.89473vw;
+	position: relative;
+}
+.menu-switch {
+	position: absolute;
+	width: 44px;
+	height: 44px;
+	top: 0;
+	right: 0;
+}
+.menu-switch i {
+	font-size: 40px;
+	color: #fff;
+	transform: rotate(0deg);
+	transition: 0.8s;
+}
+.menu-switch i:hover {
+	transform: rotate(360deg);
+}
+.menu-list {
+	width: 100%;
+	list-style-type: none;
+}
+.menu-list li {
+	margin-bottom: 60px;
+}
+.menu-list li a {
+	text-decoration: none;
+	color: #fff;
+	font-size: 20px;
+}
+.menu-box {
+	width: 100%;
+	margin-top: 20%;
+	color: #fff;
+}
+.menu-socialMedia {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+}
+.menu-socialMedia i {
+	margin-right: 30px;
+}
+.menu-co {
+	width: 100%;
+	text-align: center;
+	margin-top: 40px;
+}
+.menu-co p {
+	font-size: 16px;
 }
 .top-navbar {
 	/* width: 100%; */
@@ -17,7 +82,7 @@ body {
 	align-items: center;
 	position: sticky;
 	inset: 0;
-	z-index: 999;
+	z-index: 1;
 }
 /* 桌機 */
 .navbar-center {
@@ -34,6 +99,10 @@ body {
 	text-decoration: none;
 	color: aliceblue;
 	margin-right: 2vw;
+}
+.navbar-center-list li a:hover {
+	width: fit-content;
+	border-bottom: 2px solid #36a837;
 }
 
 .top-logo {
@@ -100,6 +169,7 @@ body {
 	margin: auto;
 	text-align: center;
 	margin-top: -7vw;
+	z-index: 0;
 }
 .item {
 	background-color: #26313c;
@@ -343,6 +413,7 @@ body {
 	text-align: center;
 	position: relative;
 	overflow: none;
+	z-index: 0;
 }
 .owl-bot .item {
 	padding: 40px;
@@ -606,5 +677,8 @@ footer {
 	.footer-co {
 		width: 100%;
 		text-indent: -2em;
+	}
+	.menu {
+		width: 100%;
 	}
 }
