@@ -593,7 +593,9 @@ footer {
 .footer-socialMedia {
 	width: 50%;
 	display: flex;
-	justify-content: space-evenly;
+	justify-content: space-between;
+	box-sizing: border-box;
+	padding-left: 30px;
 }
 .footer-socialMedia i {
 	margin-right: 30px;
