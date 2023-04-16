@@ -552,6 +552,7 @@ body {
 .comehere-send-message {
 	width: 100%;
 	height: 50px;
+	margin-top: 30px;
 	border: none;
 	border-radius: 25px;
 	background-color: #36a837;
@@ -559,7 +560,7 @@ body {
 }
 .comehere-right {
 	width: 40%;
-	padding: 20px;
+	padding: 15px;
 	box-sizing: border-box;
 }
 .comehere-right h4 {
@@ -573,11 +574,15 @@ body {
 .comehere-right-item {
 	width: 100%;
 	display: flex;
-	align-content: center;
-	margin-bottom: 10px;
+	/* align-content: center; */
+	/* margin-bottom: 10px; */
+}
+.comehere-right-item p {
+	margin-top: 30px;
 }
 .comehere-right-item i {
 	margin-right: 30px;
+	align-self: center;
 }
 footer {
 	padding-top: 100px;
