@@ -1,292 +1,492 @@
 <!DOCTYPE html>
 <html lang="zh">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="keywords" content="關鍵字" />
-    <meta name="description" content="網站敘述" />
-    <title>KitchenRWD</title>
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
-      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    />
-    <link rel="stylesheet" href="./style/reset.css" />
-    <link rel="stylesheet" href="./style/cssGrid.css" />
-    <link rel="stylesheet" href="assets/owl.carousel.min.css" />
-    <link rel="stylesheet" href="assets/owl.theme.default.min.css" />
-
-    <link rel="stylesheet" href="./style/main.css" />
-  </head>
-  <body>
-    <div class="wrap">
-      <header class="top-navbar col-12">
-        <!-- 側邊欄 -->
-        <!-- <div class="menu">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta name="keywords" content="關鍵字" />
+		<meta name="description" content="網站敘述" />
+		<title>KitchenRWD</title>
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+			integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+			crossorigin="anonymous"
+			referrerpolicy="no-referrer"
+		/>
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Merriweather+Sans&display=swap"
+			rel="stylesheet"
+		/>
+		<link rel="stylesheet" href="./style/reset.css" />
+		<link rel="stylesheet" href="./style/cssGrid.css" />
+		<link rel="stylesheet" href="assets/owl.carousel.min.css" />
+		<link rel="stylesheet" href="assets/owl.theme.default.min.css" />
+		<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+		<link rel="stylesheet" href="./style/main.css" />
+	</head>
+	<body>
+		<div class="wrap">
+			<header class="top-navbar col-12">
+				<!-- 側邊欄 -->
+				<div class="menu" id="m2">
 					<div class="menu-nav">
-						<div class="menu-logo"></div>
-						<div class="menu-switch"></div>
+						<div class="menu-logo">
+							<img src="./image/logo-white.png" alt="logo" />
+						</div>
+						<div class="menu-switch" id="hb2">
+							<i class="fa-solid fa-xmark"></i>
+						</div>
 					</div>
-					<ul>
+					<ul class="menu-list">
 						<li><a href="">Home</a></li>
 						<li><a href="">About</a></li>
 						<li><a href="">Kitchen Designs</a></li>
 						<li><a href="">Clinet Reviews</a></li>
 						<li><a href="">Contact us</a></li>
 					</ul>
-					<a href=""><img src="" alt="" /></a>
-					<a href=""><img src="" alt="" /></a>
-					<a href=""><img src="" alt="" /></a>
-					<a href=""><img src="" alt="" /></a>
-				</div> -->
-        <!-- 側邊欄 -->
+					<div class="menu-box">
+						<div class="menu-socialMedia">
+							<i class="fa-brands fa-facebook fa-xl"></i>
+							<i class="fa-brands fa-twitter fa-xl"></i>
+							<i class="fa-brands fa-instagram fa-xl"></i>
+							<i class="fa-brands fa-youtube fa-xl"></i>
+						</div>
+						<div class="menu-co">
+							<p>© 2023 MegaOne. Made With Love By LiChangJen</p>
+						</div>
+					</div>
+				</div>
+				<!-- 側邊欄 -->
+				<nav class="navbar-center col-9 col-md-7 col-11">
+					<div class="top-logo">
+						<img src="./image/logo-white.png" alt="" />
+					</div>
+					<ul class="navbar-center-list">
+						<li><a href="">Home</a></li>
+						<li><a href="">About</a></li>
+						<li><a href="">Kitchen Designs</a></li>
+						<li><a href="">Clinet Reviews</a></li>
+						<li><a href="">Contact us</a></li>
+					</ul>
+				</nav>
+				<div class="hb" id="hb1">
+					<span class="bar01"></span>
+					<span></span>
+					<span class="bar03"></span>
+				</div>
+			</header>
+			<section class="section-banner">
+				<!-- 社群 -->
+				<div class="section-socialMedia">
+					<a href=""><i class="fa-brands fa-facebook-f"></i></a>
+					<a href=""><i class="fa-brands fa-twitter"></i></a>
+					<a href=""><i class="fa-brands fa-linkedin-in"></i></a>
+					<a href=""><i class="fa-brands fa-instagram"></i></a>
+				</div>
+			</section>
+			<section class="section-message-box">
+				<div class="owl-top owl-carousel col-7">
+					<div class="item">
+						<i class="fa-xl fa-solid fa-clipboard"></i>
+						<p>Kitchen Designs</p>
+						<span
+							>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc
+							mauris arcu.</span
+						>
+					</div>
+					<div class="item">
+						<i class="fa-xl fa-solid fa-star"></i>
+						<p>Kitchen Panels</p>
+						<span
+							>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc
+							mauris arcu.</span
+						>
+					</div>
+					<div class="item">
+						<i class="fa-xl fa-solid fa-globe"></i>
+						<p>Living Rooms</p>
+						<span
+							>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc
+							mauris arcu.</span
+						>
+					</div>
+					<div class="item">
+						<i class="fa-xl fa-solid fa-globe"></i>
+						<p>Dining Rooms</p>
+						<span
+							>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc
+							mauris arcu.</span
+						>
+					</div>
+				</div>
+			</section>
+			<section class="kitpic">
+				<div class="pic col-8">
+					<img src="./image/service.jpg" alt="" />
+				</div>
+			</section>
+			<section class="section-aboutUs">
+				<div class="section-aboutUs-title col-7" data-aos="zoom-in">
+					<h2>
+						We are World’s Leading<br />
+						Kitchen Designers
+					</h2>
+					<p>
+						Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+						Necessitatibus a quis delectus voluptates quidem dolo, enim earum id
+						cum possimus totam.
+					</p>
+				</div>
+				<div class="section-aboutUs-txt-box col-8">
+					<div class="section-aboutUs-txtcard" data-aos="fade-right">
+						<h3><span>01.</span> Modern Designs</h3>
+						<p>
+							Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+							Necessitatibus a quis delectus voluptates quidem dolor, enim earum
+							id cum possimus totam.
+						</p>
+					</div>
+					<div class="section-aboutUs-txtcard" data-aos="fade-left">
+						<h3><span>02.</span> Quality Work</h3>
+						<p>
+							Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+							Necessitatibus a quis delectus voluptates quidem dolor, enim earum
+							id cum possimus totam.
+						</p>
+					</div>
+					<div class="section-aboutUs-txtcard" data-aos="fade-right">
+						<h3><span>03.</span> Affordable Prices</h3>
+						<p>
+							Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+							Necessitatibus a quis delectus voluptates quidem dolor, enim earum
+							id cum possimus totam.
+						</p>
+					</div>
+					<div class="section-aboutUs-txtcard" data-aos="fade-left">
+						<h3><span>04.</span> Future Suport</h3>
+						<p>
+							Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+							Necessitatibus a quis delectus voluptates quidem dolor, enim earum
+							id cum possimus totam.
+						</p>
+					</div>
+				</div>
+			</section>
+			<!-- learn按鈕 -->
+			<section class="bulid-kitchen">
+				<div class="bulid-tille col-12" data-aos="fade-up">
+					<h3>
+						<span>Lorem ipsum, dolor sit amet</span>Let us build your kitchen!
+					</h3>
 
-        <nav class="navbar-center col-9 col-md-7 col-11">
-          <div class="top-logo">
-            <img src="./image/logo-white.png" alt="" />
-          </div>
-          <ul class="navbar-center-list">
-            <li><a href="">Home</a></li>
-            <li><a href="">About</a></li>
-            <li><a href="">Kitchen Designs</a></li>
-            <li><a href="">Clinet Reviews</a></li>
-            <li><a href="">Contact us</a></li>
-          </ul>
-        </nav>
-        <div class="hb">
-          <span class="bar01"></span>
-          <span></span>
-          <span class="bar03"></span>
-        </div>
-      </header>
-      <section class="section-banner">
-        <!-- 社群 -->
-        <div class="section-socialMedia">
-          <a href=""><i class="fa-brands fa-facebook-f"></i></a>
-          <a href=""><i class="fa-brands fa-twitter"></i></a>
-          <a href=""><i class="fa-brands fa-linkedin-in"></i></a>
-          <a href=""><i class="fa-brands fa-instagram"></i></a>
-        </div>
-      </section>
-      <section class="section-message-box">
-        <div class="owl-carousel col-7">
-          <div class="item">
-            <i class="fa-xl fa-solid fa-clipboard"></i>
-            <p>Kitchen Designs</p>
-            <span
-              >Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc
-              mauris arcu.</span
-            >
-          </div>
-          <div class="item">
-            <i class="fa-xl fa-solid fa-star"></i>
-            <p>Kitchen Panels</p>
-            <span
-              >Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc
-              mauris arcu.</span
-            >
-          </div>
-          <div class="item">
-            <i class="fa-xl fa-solid fa-globe"></i>
-            <p>Living Rooms</p>
-            <span
-              >Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc
-              mauris arcu.</span
-            >
-          </div>
-          <div class="item">
-            <i class="fa-xl fa-solid fa-globe"></i>
-            <p>Dining Rooms</p>
-            <span
-              >Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc
-              mauris arcu.</span
-            >
-          </div>
-        </div>
-      </section>
-      <section class="kitpic">
-        <div class="pic col-8">
-          <img src="./image/service.jpg" alt="" />
-        </div>
-      </section>
-      <section class="section-aboutUs">
-        <div class="section-aboutUs-title col-7">
-          <h2>
-            We are World’s Leading<br />
-            Kitchen Designers
-          </h2>
-          <p>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-            Necessitatibus a quis delectus voluptates quidem dolo, enim earum id
-            cum possimus totam.
-          </p>
-        </div>
-        <div class="txt-box">
-          <div class="txtcard">
-            <h3>Modern Designs</h3>
-            <p>
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-              Necessitatibus a quis delectus voluptates quidem dolor, enim earum
-              id cum possimus totam.
-            </p>
-          </div>
-          <div class="txtcard">
-            <h3>Quality Work</h3>
-            <p>
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-              Necessitatibus a quis delectus voluptates quidem dolor, enim earum
-              id cum possimus totam.
-            </p>
-          </div>
-          <div class="txtcard">
-            <h3>Affordable Prices</h3>
-            <p>
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-              Necessitatibus a quis delectus voluptates quidem dolor, enim earum
-              id cum possimus totam.
-            </p>
-          </div>
-          <div class="txtcard">
-            <h3>Future Suport</h3>
-            <p>
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-              Necessitatibus a quis delectus voluptates quidem dolor, enim earum
-              id cum possimus totam.
-            </p>
-          </div>
-        </div>
-      </section>
-      <!-- learn按鈕 -->
-      <section class="bulid-kitchen">
-        <div class="bulid-tille">
-          <h3>Let us build your kitchen!</h3>
-          <p>Lorem ipsum, dolor sit amet</p>
-          <button>Learn More</button>
-        </div>
-        <div class="bulid-number">
-          <div class="num">
-            <h4>2010</h4>
-            <p>Since We Started</p>
-          </div>
-          <article>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-            Necessitatibus a quis delectus<br />
-            voluptates quidem dolor, enim earum id cum possimus totam.
-          </article>
-          <div class="num">
-            <h4>395</h4>
-            <p>Kitchens Designed</p>
-          </div>
-        </div>
-      </section>
-      <section class="kitchen-design">
-        <h3>We have created some beautiful Kitchens</h3>
-        <p>
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptates
-          quas reiciendis itaque.
-        </p>
-        <a href="">All</a>
-        <a href="">Wood Panel</a>
-        <a href="">Imported Panel</a>
-        <a href="">Artistic</a>
-        <a href="">Elite Class</a>
-        <div class="kitchen-design-pic">
-          <div class="lightpic">
-            <div class="twoChair">
-              <img src="" alt="" />
-            </div>
-            <div class="littlepic">
-              <img src="" alt="" />
-            </div>
-            <div class="littlepic">
-              <img src="" alt="" />
-            </div>
-          </div>
-          <div class="woodfoot">
-            <img src="" alt="" />
-          </div>
-          <div class="fullkitchen">
-            <img src="" alt="" />
-          </div>
-        </div>
-      </section>
-      <section class="green-butten">
-        <h4>Let us build your kitchen!</h4>
-        <p>Lorem ipsum dolor, sit</p>
-        <button></button>
-      </section>
-      <section class="clientRevews">
-        <div class="owl-carousel owl-theme">
-          <div class="item col-3">
-            <div class="dott"></div>
-            <div class="clinet-txt">
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nesciunt
-              facilis, eaque vero illo natus iste corrupti maxime, possimus.
-            </div>
-            <div class="clinet-hand-pic">
-              <img src="" alt="" />
-            </div>
-          </div>
-          <div class="item">
-            <div class="dott">
-              <i class="fa-sharp fa-solid fa-quote-right"></i>
-            </div>
-            <div class="clinet-txt">
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nesciunt
-              facilis, eaque vero illo natus iste corrupti maxime, possimus.
-            </div>
-            <div class="clinet-hand-pic">
-              <img src="" alt="" />
-            </div>
-          </div>
-          <div class="item">
-            <div class="dott"></div>
-            <div class="clinet-txt">
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nesciunt
-              facilis, eaque vero illo natus iste corrupti maxime, possimus.
-            </div>
-            <div class="clinet-hand-pic">
-              <img src="" alt="" />
-            </div>
-          </div>
-          <div class="item">
-            <div class="dott"></div>
-            <div class="clinet-txt">
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nesciunt
-              facilis, eaque vero illo natus iste corrupti maxime, possimus.
-            </div>
-            <div class="clinet-hand-pic">
-              <img src="" alt="" />
-            </div>
-          </div>
-        </div>
-      </section>
-    </div>
+					<button>Learn More</button>
+				</div>
+			</section>
+			<!-- 數字會跑 -->
+			<section class="section-numRun">
+				<div class="section-bulid-number">
+					<div class="num">
+						<h4 id="number">2010</h4>
+						<p>Since We Started</p>
+					</div>
+					<article>
+						Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+						Necessitatibus a quis delectus adipisicing elit.adipisicing elit.
+					</article>
+					<div class="num">
+						<h4 id="number2">395</h4>
+						<p>Kitchens Designed</p>
+					</div>
+				</div>
+			</section>
+			<section class="kitchen-design">
+				<div class="kitchen-design-title col-7" data-aos="zoom-in">
+					<h3>
+						We have <span class="greenWord">created</span> some<br />beautiful
+						Kitchens
+					</h3>
+					<p>
+						Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+						<br />Voluptates quas reiciendis itaque.
+					</p>
+					<nav class="kitchen-design-menu">
+						<a href="">All</a>
+						<a href="">Wood Panel</a>
+						<a href="">Imported Panel</a>
+						<a href="">Artistic</a>
+						<a href="">Elite Class</a>
+					</nav>
+				</div>
 
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
-    <script src="owl.carousel.min.js"></script>
-    <script>
-      $(document).ready(function () {
-        $(".owl-carousel").owlCarousel({
-          loop: true,
-          margin: 0,
-          responsive: {
-            0: {
-              items: 1,
-              nav: false,
-            },
-            768: {
-              items: 3,
-            },
-            1200: {
-              items: 3,
-            },
-          },
-        });
-      });
-    </script>
-  </body>
+				<div class="kitchen-design-picbox col-8" data-aos="fade-up">
+					<div class="design-picture">
+						<img src="./image/portfolio-img-7.jpg" alt="" />
+					</div>
+					<div class="design-picture">
+						<img src="./image/portfolio-img-2.jpg" alt="" />
+					</div>
+					<div class="design-picture">
+						<img src="./image/portfolio-img-3.jpg" alt="" />
+					</div>
+					<div class="design-picture">
+						<img src="./image/portfolio-img-4.jpg" alt="" />
+					</div>
+				</div>
+			</section>
+			<section class="green-butten">
+				<h4>Let us build your kitchen!</h4>
+				<button>Get a Quote</button>
+			</section>
+			<section class="section-clientRevews">
+				<div class="section-clientRevews-title col-6 col-md-7 col-xl-3">
+					<h3>
+						<span>Lorem ipsum dolor sit amet,</span>
+						Clients All Over the<br />
+						World Loves Our Work!
+					</h3>
+				</div>
+
+				<div
+					class="owl-bot owl-carousel owl-theme col-7"
+					data-aos="fade-up"
+					data-aos-anchor-placement="center-bottom"
+				>
+					<div class="item">
+						<div class="dottbox">
+							<i class="fa-sharp fa-solid fa-quote-right"></i>
+						</div>
+						<p>
+							Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nesciunt
+							facilis, eaque vero illo natus iste corrupti maxime, possimus.
+						</p>
+						<div class="clinet-hand-pic">
+							<img src="./image/testimonial1.png" alt="" />
+						</div>
+						<div class="clinet-name-job">
+							<h4>David RaleWay</h4>
+							<p>Businessman</p>
+						</div>
+					</div>
+					<div class="item">
+						<div class="dottbox">
+							<i class="fa-sharp fa-solid fa-quote-right"></i>
+						</div>
+
+						<p>
+							Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nesciunt
+							facilis, eaque vero illo natus iste corrupti maxime, possimus.
+						</p>
+						<div class="clinet-hand-pic">
+							<img src="./image/testimonial2.png" alt="" />
+						</div>
+						<div class="clinet-name-job">
+							<h4>Kata Marasisa</h4>
+							<p>interior Designer</p>
+						</div>
+					</div>
+					<div class="item">
+						<div class="dottbox">
+							<i class="fa-sharp fa-solid fa-quote-right"></i>
+						</div>
+
+						<p>
+							Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nesciunt
+							facilis, eaque vero illo natus iste corrupti maxime, possimus.
+						</p>
+						<div class="clinet-hand-pic">
+							<img src="./image/testimonial3.png" alt="" />
+						</div>
+						<div class="clinet-name-job">
+							<h4>Sam Billings</h4>
+							<p>Company Owner</p>
+						</div>
+					</div>
+					<div class="item">
+						<div class="dottbox">
+							<i class="fa-sharp fa-solid fa-quote-right"></i>
+						</div>
+
+						<p>
+							Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nesciunt
+							facilis, eaque vero illo natus iste corrupti maxime, possimus.
+						</p>
+						<div class="clinet-hand-pic">
+							<img src="./image/testimonial4.png" alt="" />
+						</div>
+						<div class="clinet-name-job">
+							<h4>Daniel Bryan</h4>
+							<p>Designer</p>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="section-logo-running-map">
+				<div class="section-logo-movingbox col-md-6 col-8">
+					<ul class="section-logo-running-bar">
+						<li>
+							<img src="./image/client-1.png" alt="logo" />
+						</li>
+						<li>
+							<img src="./image/client-1.png" alt="logo" />
+						</li>
+						<li>
+							<img src="./image/client-1.png" alt="logo" />
+						</li>
+						<li>
+							<img src="./image/client-1.png" alt="logo" />
+						</li>
+						<li>
+							<img src="./image/client-1.png" alt="logo" />
+						</li>
+						<li>
+							<img src="./image/client-1.png" alt="logo" />
+						</li>
+						<li>
+							<img src="./image/client-1.png" alt="logo" />
+						</li>
+						<li>
+							<img src="./image/client-1.png" alt="logo" />
+						</li>
+						<li>
+							<img src="./image/client-1.png" alt="logo" />
+						</li>
+						<li>
+							<img src="./image/client-1.png" alt="logo" />
+						</li>
+						<li>
+							<img src="./image/client-1.png" alt="logo" />
+						</li>
+						<li>
+							<img src="./image/client-1.png" alt="logo" />
+						</li>
+						<li>
+							<img src="./image/client-1.png" alt="logo" />
+						</li>
+					</ul>
+				</div>
+				<div class="section-logo-map-box col-md-6 col-8">
+					<iframe
+						src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3672.603924023004!2d120.15818491092496!3d23.001587829101663!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x346e767378e3e467%3A0x9b1e15dd6ac9adf1!2z5a6J5bmz5Y-k5aCh!5e0!3m2!1szh-TW!2stw!4v1681476072691!5m2!1szh-TW!2stw"
+						width="600"
+						height="450"
+						style="border: 0"
+						allowfullscreen=""
+						loading="lazy"
+						referrerpolicy="no-referrer-when-downgrade"
+					></iframe>
+				</div>
+			</section>
+			<section class="section-comehere">
+				<div class="section-comehere-box col-md-7 col-8">
+					<div class="comehere-left">
+						<div class="comehere-left-title">
+							<h4>Let’s Get In Touch</h4>
+						</div>
+						<!-- 表單框框 -->
+						<div class="comehere-input">
+							<div class="comehere-input-left">
+								<div class="comehere-input-left-item">
+									<input type="text" placeholder="Your Name" />
+								</div>
+								<div class="comehere-input-left-item">
+									<input type="email" placeholder="Email Address" />
+								</div>
+								<div class="comehere-input-left-item">
+									<input type="text" placeholder="Subjcet" />
+								</div>
+							</div>
+							<div class="comehere-input-right">
+								<textarea name="" id="" cols="30" rows="14"></textarea>
+							</div>
+						</div>
+						<!-- 表單框框 -->
+						<button class="comehere-send-message">Send Message</button>
+					</div>
+					<!-- middleLine -->
+					<div class="comehere-right">
+						<h4>Head Office</h4>
+						<p>
+							There are many variations of passages of Lorem Ipsum available,
+							but the majority have suffered
+						</p>
+						<div class="comehere-right-item">
+							<i class="fa-solid fa-map-pin fa-xl"></i>
+							<p>123 Park Avenue, New York, United States</p>
+						</div>
+						<div class="comehere-right-item">
+							<i class="fa-solid fa-mobile-screen-button fa-xl"></i>
+							<p>0932885689</p>
+						</div>
+						<div class="comehere-right-item">
+							<i class="fa-regular fa-envelope fa-xl"></i>
+							<p>d6200121a@gmail.com</p>
+						</div>
+					</div>
+				</div>
+			</section>
+			<footer>
+				<div class="footer-box col-md-6 col-12">
+					<div class="footer-socialMedia">
+						<i class="fa-brands fa-facebook fa-xl"></i>
+						<i class="fa-brands fa-twitter fa-xl"></i>
+						<i class="fa-brands fa-instagram fa-xl"></i>
+						<i class="fa-brands fa-youtube fa-xl"></i>
+						<i class="fa-brands fa-tiktok fa-xl"></i>
+						<i class="fa-brands fa-line fa-xl"></i>
+					</div>
+					<div class="footer-co">
+						<p>© 2023 MegaOne. Made With Love By LiChangJen</p>
+					</div>
+				</div>
+			</footer>
+		</div>
+
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+		<script src="owl.carousel.min.js"></script>
+		<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+		<script>
+			AOS.init();
+		</script>
+		<script>
+			$(document).ready(function () {
+				$(".owl-top").owlCarousel({
+					loop: true,
+					margin: 0,
+					nav: false,
+					responsive: {
+						0: {
+							items: 1,
+							nav: false,
+						},
+						768: {
+							items: 3,
+						},
+						1200: {
+							items: 3,
+						},
+					},
+				}),
+					$(".owl-bot").owlCarousel({
+						loop: true,
+						margin: 20,
+						nav: false,
+						responsive: {
+							0: {
+								items: 1,
+							},
+							768: {
+								items: 3,
+							},
+							1200: {
+								items: 3,
+							},
+						},
+					});
+			});
+		</script>
+		<script src="./run.js"></script>
+	</body>
 </html>
